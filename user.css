@@ -1,0 +1,47 @@
+
+.loginPanel{
+    margin: 20%;
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+    font-size: larger;
+}
+.loginPanel input{
+    padding: 10px 40px;
+    margin: 5px;
+    border-radius: 6px;
+    border-color: aqua;
+}
+.loginPanel button a{
+    text-decoration: none;
+    border-radius: 6px ;
+}
+.loginPanel button{
+    padding: 10px 40px;
+    margin: 5px;
+    border-radius: 6px;
+    border-color: aqua;
+    text-decoration: none;
+}
+.loginPanel button:hover, .loginPanel a:hover{
+    background-color: aliceblue;
+    color: gray;
+}
+#home{
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid aquamarine;
+    padding: 5px 20px 5px 20px;
+    color: grey;
+    font-family: cursive;
+}
+#home:hover{
+    background-color: #EDB382;
+    color: white;
+    border-radius: 10px;
+    transition: 0.2s;
+    font-family: 'Courier New', Courier, monospace;
+}

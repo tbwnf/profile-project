@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: #F6EFE4;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #16ed9e;
+    padding: 20px;
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float:left;
+    padding:20px;
+}
+h1, h2, h3, h4, h5, h6{
+}
+.header-contact{
+    float: right;
+    padding: 25px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: crimson;
+}
+.div-clr{
+    clear: both;
+}
+
+/*--------------------
+Personal Section Start
+----------------------*/
+#personal-section{
+
+}
+.content{
+    margin: 20px auto;
+    padding: 20px;
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.horizontal-line{
+    margin: 20px auto;
+}
+
+/*--------------------
+Education Section Start
+----------------------*/
+
+.edu-template-left{
+    float: left;
+    width: 45%;
+}
+.edu-template-right{
+    float: right;
+    width: 45%;
+}
+
+
+.bottom-container{
+    background-color: #EEE8FE;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: #1E011D;
+    text-decoration: none;
+    margin: 20px;
+    transition: 1s;
+}
+.bottom-container a:hover:nth-child(3){
+    background-color: red;
+    color: #EEE8FE;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.bottom-container a:hover:nth-child(1){
+    background-color: #0F8FF2;
+    color: #EEE8FE;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.bottom-container a:hover:nth-child(2){
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.bottom-container p{
+    color: #1E011D;
+    margin-top: 20px;
+}

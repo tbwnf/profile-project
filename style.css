@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F6EFE4;
+}
+#nav-menu{
+    width: 800px;
+    height: 65px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+#nav-menu ul li{
+    list-style-type: none;
+    margin: 20px;
+    float: left;   
+}
+#nav-menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+}
+#nav-menu ul li a:hover{
+    background-color: #262626;
+    color: white;
+}
+#welcome-board{
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: cursive;
+}
+#welcome-board h1{
+    color:#16171A ;
+    text-align: center;   
+}
+#welcome-board h1:hover{
+    background-color: #059862;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 2s;
+}
+.profile{
+    margin: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.profile p{
+    text-align: center;
+    border-radius: 1px 100px;
+    box-sizing: content-box;
+    background-color: #059862;
+    color: #F6EFE4;
+    padding: 20px;
+    transition: 1s;
+}
+.profile p:hover{
+    border-radius: 100px 1px;
+    border: 1px solid brown;
+}
+#h3{
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-bottom: 2%;
+    width: 150px;
+    padding:10px;
+    text-align: center; 
+    background-color: #059862;
+    color: #F6EFE4;
+    font-family: cursive;
+    border-radius:1px;
+    transition: 1s;  
+}
+#h3:hover{
+    height: 150px ;
+    padding:50px;
+    border-radius:100px ;
+    box-sizing: border-box;
+    background-color: crimson;
+}
+.para1{
+    padding-top: 20px;
+    margin: 20px;
+    width: 45%;
+    float: left;
+}
+.para1 h3{
+
+}
+.para1 p, .para2 p{
+    height: 180px;
+    padding: 2%;
+    background-color: crimson;
+    color: #F6EFE4;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 14px;
+}
+.para2{
+    padding-top: 20px;
+    margin: 20px;
+    width: 45%;
+    float: right;
+}
+.para2 h3{
+
+}
+#nHead1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-family: "Sofia", sans-serif;
+}
